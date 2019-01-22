@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.top {
+    background-color: red;
+    height: 63px;
+    width: auto;
+}
+
+.middle {
+	background-color: blue;
+	height: 532px;
+	width: auto;
+}
+.bottom {
+	background-color: green;
+	position: relative;
+	bottom: -20;
+	left:0;
+	height: 42px;
+	width: auto;
+	text-align: left;
+	font-family: Arial;
+	size: 10px;
+}
+
+.bottom2 {
+	background-color: darkgreen;
+	position: relative;
+	bottom: 500;
+	
+	height: 42px;
+	width: auto;
+}
+img {
+	position: relative;
+		top:225px;
+		left:540px;
+  width: 270px;
+}
+p {
+	text-align: right; 
+	font-family: Arial;
+	size: 10px;
+}
