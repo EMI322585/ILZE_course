@@ -1,0 +1,148 @@
+body {
+	font-family: Arial;
+}
+div#upper {
+	height: 30px;
+	position: relative;
+	top: 0px;
+	left: 1150px;
+
+}
+div#body {
+	height: 550px;
+	padding-top: 10px;
+    padding-left: 10px;
+}
+div#footer1 {
+	width: auto;
+	background-color: #f2f2f2;
+	border-color: #e4e4e4;
+	border-style: solid;
+	border-width: 1px;
+	height: 30px;
+	padding-top: 10px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 14px;
+}
+div#footer2 {
+	background-color: #f2f2f2;
+	border-color: #e4e4e4;
+	border-style: solid;
+	border-width: 1px;
+	width: 100;
+	height: 30px;
+	padding-top: 10px;
+    padding-left: 20px;
+    color: black;
+    word-spacing: 10px;
+    font-size: 10px;
+}
+
+/*centra attēls*/
+img#Google {
+	position: relative;
+	top: 27%;
+	left:40%;
+	width: 275px;
+
+/*Gmail & Attēli ikonas*/
+}
+a:link {
+  	color: black;
+  	background-color: transparent;
+  	text-decoration: none;
+  	font-size: 13px;
+}
+a:visited {
+  	color: gray;
+  	background-color: transparent;
+ 	text-decoration: none;
+	font-size: 13px;
+}
+a:hover {
+  	color: gray;
+ 	background-color: transparent;
+  	text-decoration: underline;
+  	font-size: 13px;
+}
+/*grid ikon*/
+img#grid_icon{
+	width: 20px;
+	position: relative;
+	top:5px;
+}
+img#star_icon{
+	width: 25px;
+	position: relative;
+	top:5px;
+}
+input{
+	position: relative;
+	top: 200px;
+	left: 120px;
+	width: 550px;
+	height: 36px;
+	padding-left: 15px;
+	border: 1px solid lightgray;
+  	outline-style: #f2f2f2;
+  	outline-color: transparent;
+  	box-shadow: 2px 2px 1px grey;
+}
+.autofocus{
+	color: black;
+}
+.login{
+	background-color: #0066ff;
+	border: none;
+	font-size: 14x;
+	color: white;
+	width: 60px;
+  	height: 30px;
+  	border-radius: 5px;
+}
+.button1 {
+	position: relative;
+	top:280px;
+	left: -350px;
+  	background-color: #f2f2f2;
+  	border: none;
+  	color: gray;
+  	padding: 10px 5px;
+  	text-align: center;
+  	font-size: 14x;
+  	width: 150px;
+  	height: 34px;
+  	cursor: pointer;
+}
+.button2 {
+	position: relative;
+	top:280px;
+	left: -340px;
+ 	background-color: #f2f2f2;
+  	border: none;
+  	color: gray;
+  	padding: 10px 5px;
+  	text-align: center;
+  	font-size: 14x;
+  	width: 150px;
+  	height: 34px;
+  	cursor: pointer;
+}
+.button3{
+	position: relative;
+	top: 300px;
+	left: 550px;
+	border: none;
+	background-color: transparent;
+}
+.button4{
+	border: none;
+	background-color: transparent;
+}
+.button5{
+	position: relative;
+	left: 650px;
+	border: none;
+	background-color: transparent;
+}
