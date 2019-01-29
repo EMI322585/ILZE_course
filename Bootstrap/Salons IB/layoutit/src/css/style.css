@@ -1,0 +1,107 @@
+.brand{
+	font-family: Arial;
+	font-size: 30px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+.nav-link4,.nav-link3,.nav-link2,.nav-link1{
+	position: relative;
+	left: 650px;
+}
+
+.form-control1{
+	position: relative;
+	width: 200px;
+	height: 35px;
+	left: 700px;
+}
+
+.search{
+	position: relative;
+	left: 710px;
+}
+
+.col-md-4_1{
+	position: relative;
+	left: 60px;
+}
+.col-md-4_2{
+	position: relative;
+	left: 160px;
+}
+.col-md-4_3{
+	position: relative;
+	left: 240px;
+}
+
+.pieraksts {
+	position: relative;
+	left: 100px;
+	font-size: 40px;
+	color: navy;
+}
+
+.col-md-6_1{
+	position: relative;
+	left: 120px;
+}
+.col-md-6{
+	position: relative;
+	left: 600px;
+}
+.checkbox{
+	margin-left: 30px;
+}
+.table{
+	color: navy;
+	width: 300px;
+	left: 
+
+}
+.question{
+	font-family: Arial;
+	color: red;
+	position: relative;
+	left: 60px;
+	top: 30px;
+}
+
+.card{
+	position: relative;
+	left: 60px;
+	top: 20px;
+	width: 1000px;
+	border-color: transparent;
+
+}
+
+/*adrese*/
+.form-control{
+	width: 300px;
+}
+
+
+
+.btnbtn-primary{
+	position: relative;
+	left: 50px;
+	left: 30px;
+	color: navy;
+}
+.btnbtn-success{
+	position: relative;
+	top:-120px;
+	left:300px;
+}
+.col-md-4{
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+
+
+
+
+
