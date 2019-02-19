@@ -1,10 +1,9 @@
-print('Sveiks! Šī ir "Slepenā skaitļa spēle"')
+print('Sveiks/a! Šī ir "Slepenā skaitļa spēle"')
 name = input("Lūdzu ievadi savu vārdu:")
 print("Sveiks/a," + name)
-
 from random import randint
 number = randint(1,100)
-print("Tagad iedomājies skaitli no 1 līdz 100 un uzraksti to. Tev ir iespēja minēt 5 reizes. Lai veicas! ")
+print("Tagad mēģini uzminēt kādu skaitli no 1 līdz 100 esmu iedomājies un uzraksti to. Tev ir iespēja minēt 5 reizes. Lai veicas! ")
 
 for x in range(5):
     guess = int(input("Ievadi skaitli:"))
@@ -16,4 +15,4 @@ for x in range(5):
     elif guess < number:
         print("Skaitlis ir lielāks.")
 else:
-    print("Diemžēl Tu neuzminēji ar 5 minējumiem. Spēle beigusies!(")
+    print("Diemžēl Tu neuzminēji ar 5 minējumiem. Spēle beigusies!:(")
