@@ -10,7 +10,8 @@ print()
 while True:
     print_introduction()
     choice = input("Jūsu izvēle: ...")
-    if choice.lower() not in ["r", "a", "x", "d", "c"]:
+    print()
+    if choice.lower() not in ["r", "a", "x", "d", "c", "u"]:
         print("Jūs esat izdarījis kļūdainu izvēli")
         continue #veids kā izlaist visu tālāko darbību un sākt ciklu no jauna
 
@@ -18,19 +19,25 @@ while True:
         print("\n") # Tukša rindiņa uz ekrāna, pārskatāmībai
         print("Jūsu saraksts")
         print_list(list)
+        print()
 
     if choice.lower() == "a":
-        print("Elementa pievienošana")
-        value = input("Lūdzu ievadiet kārtējo saraksta elementu:...")
+        print("Piezīmes pievienošana")
+        value = input("Lūdzu ievadiet piezīmi:...")
         list.append(value)
+        print()
 
     if choice.lower() == "d":
-        print("Elementa dzēšana")
+        print("Piezīmes dzēšana")
         delete_from_list(list)
 
     if choice.lower() == "c":
         print("Saraksta dzēšana")
         list.clear()
+
+    if choice.lower() == "u":
+        print("Piezīmes labošana")
+        update_list(list)
 
     if choice.lower() == "x":
         print("Paldies par darbu!")
